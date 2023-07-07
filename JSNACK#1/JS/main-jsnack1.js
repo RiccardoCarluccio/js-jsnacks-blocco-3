@@ -13,7 +13,11 @@ BTN_GET_NUM.addEventListener('click', function addNum() {
   //TEST PREVIOUS CONST
   console.log(`ADDED_NUM = USER_NUM.value is: ${ADDED_NUM}`);
 
-  userSum += parseInt(ADDED_NUM); //da poi wrappare in un if < 50
+  if (userSum <= 50) {
+    userSum += parseInt(ADDED_NUM);
+  } else {
+    console.log(`The sum reached: ${userSum}`)
+  }
 
   //TEST FINAL SUM
   console.log(`userSum += ADDED_NUM is: ${userSum}`);
