@@ -10,7 +10,7 @@ console.log(`userSum is: ${userSum}`);
 
 BTN_GET_NUM.addEventListener('click', function addNum() {
   const ADDED_NUM = USER_NUM.value;
-  //TEST PRREVIOUS CONST
+  //TEST PREVIOUS CONST
   console.log(`ADDED_NUM = USER_NUM.value is: ${ADDED_NUM}`);
 
   userSum += ADDED_NUM; //da poi wrappare in un if < 50
