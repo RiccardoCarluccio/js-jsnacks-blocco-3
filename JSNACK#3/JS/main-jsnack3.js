@@ -19,3 +19,7 @@ BTN_GET_ARRAY.addEventListener('click', function arrayGenerator() {
     console.log(`The array #${parseInt(ARRAY_QUANTITY)} is ${ARRAY_OF_NUMBERS}`);
   }
 })
+
+//chiaramente aggiunge ogni volta valori all'array, perchè è una const globale
+
+//ma l'array #userInput in realtà è sempre lo stesso
