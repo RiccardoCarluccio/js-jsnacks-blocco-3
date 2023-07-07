@@ -20,3 +20,6 @@ for (i = 0; i < ARRAY_OF_NUMBERS.length; i++) {   //.length è ovviamente 30
 //TEST SUMS
 console.log(`The sum of the odd numbers is: ${oddSum}`);
 console.log(`The sum of the even numbers is: ${evenSum}`);
+
+document.getElementById("odd-sum").innerHTML = `The sum of the odd numbers is: ${oddSum}`;
+document.getElementById("even-sum").innerHTML = `The sum of the even numbers is: ${evenSum}`;
