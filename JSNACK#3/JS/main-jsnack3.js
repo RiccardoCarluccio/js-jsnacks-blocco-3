@@ -6,17 +6,17 @@ const ARRAY_OF_NUMBERS = [];
 console.log(`n is: ${n}`);
 
 BTN_GET_ARRAY.addEventListener('click', function arrayGenerator() {
-  const ARRAY_QUANTITY = n.value;
+  const NUMBERS_OF_ARRAYS = n.value;
   //TEST ARRAY QUANTITY
-  console.log(`ARRAY_QUANTITY is: ${ARRAY_QUANTITY}`);
+  console.log(`NUMBERS_OF_ARRAYS is: ${NUMBERS_OF_ARRAYS}`);
 
-  for (let i = 0; i < parseInt(ARRAY_QUANTITY); i++) {
+  for (let i = 0; i < parseInt(NUMBERS_OF_ARRAYS); i++) {
 
     //CREATES ARRAY CONTENT
     for (i = 0; i < 10; i++) {
       ARRAY_OF_NUMBERS.push(Math.floor(Math.random() * 101));
     }
-    console.log(`The array #${parseInt(ARRAY_QUANTITY)} is ${ARRAY_OF_NUMBERS}`);
+    console.log(`The array #${parseInt(NUMBERS_OF_ARRAYS)} is ${ARRAY_OF_NUMBERS}`);
   }
 })
 
