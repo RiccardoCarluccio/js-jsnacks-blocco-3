@@ -22,3 +22,5 @@ BTN_GET_NUM.addEventListener('click', function addNum() {
   //TEST FINAL SUM
   console.log(`userSum += ADDED_NUM is: ${userSum}`);
 })
+
+//non ho fatto caso alla richiesta di array. a fine jsnack#3 tornerò a completare la consegna
