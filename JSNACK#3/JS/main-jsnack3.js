@@ -14,12 +14,10 @@ BTN_GET_ARRAY.addEventListener('click', function arrayGenerator() {
     TEN_ELEMENTS_ARRAY = [];
 
     //CREATES ARRAY CONTENT
-    for (i = 0; i < 10; i++) {
-      TEN_ELEMENTS_ARRAY.push(Math.floor(Math.random() * 101));
+    for (j = 0; j < 10; j++) {
+      TEN_ELEMENTS_ARRAY.push(Math.floor(Math.random() * 100) + 1);
     }
 
     console.log(`The array #${NUMBERS_OF_ARRAYS} is ${TEN_ELEMENTS_ARRAY}`);
   }
 })
-
-//l'output è un solo array e non in numero indicato dall'utente
