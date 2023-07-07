@@ -13,7 +13,7 @@ BTN_GET_ARRAY.addEventListener('click', function arrayGenerator() {
   for (let i = 0; i < parseInt(ARRAY_QUANTITY); i++) {
 
     //CREATES ARRAY CONTENT
-    for (i = 0; i < 11; i++) {
+    for (i = 0; i < 10; i++) {
       ARRAY_OF_NUMBERS.push(Math.floor(Math.random() * 101));
     }
     console.log(`The array #${parseInt(ARRAY_QUANTITY)} is ${ARRAY_OF_NUMBERS}`);
